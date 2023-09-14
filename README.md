@@ -1,5 +1,3 @@
-# python_replit
-
 # <p align="center"><a href="https://github.com/franckdun/Knowledge-GALERY"><img src="https://img.shields.io/badge/🏠-🎓%20Python avec Replit %20🎓-7986CB" width="750" ></a></p>
 
 <p align="center">
