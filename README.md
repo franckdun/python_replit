@@ -20,33 +20,9 @@
   <table>
     <tr>  
       <td> <!-- MODULE 1 -->
-        <p align="center"><a href="#" target="_blank" rel="noreferrer">_________Module1________</a></p>
+        <p align="center"><a href="#" target="_blank" rel="noreferrer">_________100jours________</a></p>
         <p align="center"><a href="#" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/Img-Banck/blob/main/img/github.svg" width="100" height="100" alt="franckdun" /> </a></p>
         <p align="center"><a href="https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python"> <img src="https://img.shields.io/badge/- Apprenez les bases du langage Python -7986CB" width="#"> </a></p>
-      </td>
-      <td> <!-- MODULE 2 -->
-        <p align="center"><a href="#" rel="noreferrer">_________Module2________</a></p>
-        <p align="center"><a href="#" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/Img-Banck/blob/main/img/github.svg" width="100" height="100" alt="franckdun" /> </a></p>
-        <p align="center"><a href="https://openclassrooms.com/fr/courses/6204541-python-pour-lanalyse-de-donnees"> <img src="https://img.shields.io/badge/-Python pour les analyses de données -7986CB" width="#"> </a></p>
-      </td>
-      <td> <!-- MODULE 3 -->
-        <p align="center"><a href="#" target="_blank" rel="noreferrer">_________Module3________</a></p>
-        <p align="center"><a href="#" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/Img-Banck/blob/main/img/github.svg" width="100" height="100" alt="franckdun" /> </a></p>
-        <p align="center"><a href="https://openclassrooms.com/fr/courses/6173491-apprenez-a-utiliser-la-ligne-de-commande"> <img src="https://img.shields.io/badge/- Ligne de commande dans un terminal -7986CB" width="#"> </a></p>
-      </td>
-      <td> <!-- MODULE 4 -->
-        <p align="center"><a href="#" target="_blank" rel="noreferrer">_________Module4________</a></p>
-        <p align="center"><a href="#" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/Img-Banck/blob/main/img/github.svg" width="100" height="100" alt="franckdun" /> </a></p>
-	<p align="center"><a href="https://openclassrooms.com/fr/courses/6951236-mettez-en-place-votre-environnement-python/7014674-Installez-et-executez-pycharm"> <img src="https://img.shields.io/badge/-Votre environnement Python -7986CB" width="#"> </a></p>
-      </td>
-      <td> <!-- MODULE 5 https://replit.com/@FranckDunoye/day-1100-days#main.py -->
-        <p align="center"><a href="https://replit.com/" target="_blank" rel="noreferrer">_________Module5_________</a></p>
-        <p align="center"><a href="https://replit.com/" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/Img-Banck/blob/main/img/github.svg" width="100" height="100" alt="franckdun" /> </a></p>
-	<p align="center"><a href="https://replit.com/learn/100-days-of-python/hub"> <img src="https://img.shields.io/badge/-Python avec replit-7986CB" width="#"> </a></p>
-      </td>
-      <td> <!-- MODULE 6 -->
-        <p align="center"><a href="https://github.com/franckdun/zonebiz" target="_blank" rel="noreferrer">_________*******_________</a></p>
-        <p align="center"><a href="#" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/Img-Banck/blob/main/img/github.svg" width="100" height="100" alt="franckdun" /> </a></p>
       </td>
     </tr>
   </table>
