@@ -20,9 +20,9 @@
   <table>
     <tr>  
       <td> <!-- MODULE 1 -->
-        <p align="center"><a href="#" target="_blank" rel="noreferrer">_________100jours________</a></p>
-        <p align="center"><a href="#" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/Img-Banck/blob/main/img/github.svg" width="100" height="100" alt="franckdun" /> </a></p>
-        <p align="center"><a href="https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python"> <img src="https://img.shields.io/badge/- Apprenez les bases du langage Python -7986CB" width="#"> </a></p>
+        <p align="center"><a href="https://replit.com/" target="_blank" rel="noreferrer">_________100jours________</a></p>
+        <p align="center"><a href="https://replit.com/" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/Img-Banck/blob/main/img/github.svg" width="100" height="100" alt="franckdun" /> </a></p>
+        <p align="center"><a href="https://replit.com/"> <img src="https://img.shields.io/badge/- Apprenez Python avec repl it -7986CB" width="#"> </a></p>
       </td>
     </tr>
   </table>
