@@ -22,7 +22,7 @@
 <summary><p align="left"><em><strong>Module 1, 2, 3.</strong></em></p></summary>
 
 
-<p align="center"><a href="https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript"> <img src="https://img.shields.io/badge/Go%20to-MODULE_1-7986CB"> </a><a href="https://openclassrooms.com/fr/courses/5543061-ecrivez-du-javascript-pour-le-web?archived-source=1916641"> <img src="https://img.shields.io/badge/Go%20to-MODULE_2-7986CB"> </a><a href="https://openclassrooms.com/fr/courses/6573181-adoptez-les-api-rest-pour-vos-projets-web"> <img src="https://img.shields.io/badge/Go%20to-MODULE_3-7986CB"> </a></p>
+<p align="center"><a href="#"> <img src="https://img.shields.io/badge/Go%20to-MODULE_1-7986CB"> </a><a href="#"> <img src="https://img.shields.io/badge/Go%20to-MODULE_2-7986CB"> </a><a href="#"> <img src="https://img.shields.io/badge/Go%20to-MODULE_3-7986CB"> </a></p>
 	
 	
 		
