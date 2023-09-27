@@ -10,6 +10,11 @@
         <p align="center"><a href="https://github.com/franckdun/python_replit/blob/main/readme/readme.png" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/python_replit/blob/main/readme/readme.png" width="#" height="300" alt="franckdun" /> </a></p>
         <p align="center"><a href="https://replit.com/learn/100-days-of-python/hub?utm_source=widget"> <img src="https://img.shields.io/badge/- Apprenez Python avec repl it -7986CB" width="#"> </a></p>
       </td>
+      <td> <!-- MODULE 1 -->
+        <p align="center"><a href="https://github.com/franckdun/python_replit/tree/main/Python_100_jours" target="_blank" rel="noreferrer">_________100jours________</a></p>
+        <p align="center"><a href="https://github.com/franckdun/python_replit/blob/main/readme/readme.png" target="_blank" rel="noreferrer"> <img align="center" src="https://github.com/franckdun/python_replit/blob/main/readme/readme.png" width="#" height="300" alt="franckdun" /> </a></p>
+        <p align="center"><a href="https://replit.com/learn/100-days-of-python/hub?utm_source=widget"> <img src="https://img.shields.io/badge/- Apprenez Python avec repl it -7986CB" width="#"> </a></p>
+      </td>
     </tr>
   </table>
 </div>
