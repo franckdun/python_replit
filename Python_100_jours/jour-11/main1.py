@@ -1,12 +1,17 @@
-# Combien de secondes sont dans une année? 
-# 60 seconde en 1 minute
-# 60 minutes en 1 heure
-# 24 heures = 1 jour
-# 31 jours = 1 mois
-# 12 mois = 1 an 
-# 12 mois dans l'année
-# 365 jours = 1 année
-# 366 jours = 1 année bissextile (c'est tous les quatre ans) 
-# année bissextile + 1 jour
 
-#31.536.000 secondes
+# Déclaration des constantes
+secondes_par_minute = 60
+minutes_par_heure = 60
+heures_par_jour = 24
+jours_par_an = 365
+jours_par_an_bissextile = 366
+
+# Calcul du nombre de secondes dans une année normale
+secondes_par_an = secondes_par_minute * minutes_par_heure * heures_par_jour * jours_par_an
+
+# Calcul du nombre de secondes dans une année bissextile
+secondes_par_an_bissextile = secondes_par_minute * minutes_par_heure * heures_par_jour * jours_par_an_bissextile
+
+# Affichage des résultats
+print("Nombre de secondes dans une année normale :", secondes_par_an)
+print("Nombre de secondes dans une année bissextile :", secondes_par_an_bissextile)

@@ -1,16 +1,19 @@
+#Solution
+days_this_year = int(input("How many days are in this year?"))
 
-# multiplication
-multiplication = 3.4 * 6.8
-print(multiplication)
-# division
-division = 2467 / 4673
-print(division)
-#raise 10 to the power of 2
-carre = 10**2
-print(carre)
-# print the remainder when 343 is divided by 4
-modulo = 343 % 4
-print(modulo)
-# print the int of this division
-int = 343 // 100
-print(int)
+days_in_year = 365
+days_in_leapyear = 366
+hours_in_day = 24
+minutes_in_hour = 60
+seconds_in_minute = 60
+
+
+result = days_in_year * hours_in_day * minutes_in_hour * seconds_in_minute
+
+leapyear_result = days_in_leapyear * hours_in_day * minutes_in_hour * seconds_in_minute
+
+
+if days_this_year == 366:
+  print("Number of seconds in a leap year are", leapyear_result)
+else:
+  print("Number of seconds in a year are", result)
