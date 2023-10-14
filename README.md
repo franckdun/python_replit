@@ -14,43 +14,16 @@
   </table>
 </div>
 
+<!--
 <summary><p align="left"><em><strong>Module 1, 2, 3.</strong></em></p></summary>
 
 
 <p align="center"><a href="#"> <img src="https://img.shields.io/badge/Go%20to-MODULE_1-7986CB"> </a><a href="#"> <img src="https://img.shields.io/badge/Go%20to-MODULE_2-7986CB"> </a><a href="#"> <img src="https://img.shields.io/badge/Go%20to-MODULE_3-7986CB"> </a></p>
-	
+-->
 	
 		
 		
 
 
-<!-- ORGANISATION ///////////////////////////////////////////////////////////////////////////////////////////////////////////// -->	
-	
-<details><summary><h4><em><strong>Learning Organization</strong></em></h4></summary>
-	
-<p>la règle est tres simple, remplacez les 📌 epingles par des 🪙 pieces en réalisant les taches 
-	pour gagner des 💎 diamands</p>	
-		
-```
-Difficulté
-		🍓 - Fraise signale le module facile a exécuter.
-		🥑 - Avocat signale le module de difficulté moyenne.
-	
-Progression
-		📌 - Epingle indique le nombre de leçons ou chapitres de chaques module.
-		🖋  - Quiz aide à vous évaluer.
-		>   - Flèche indique le niveau de la progression en cours.
-	
-Acquisition
-		🪙 - Pièce signale la réussite d'un module effectué.
-		💎 - Diamant signale la réussite d'une Partie effectuées.
 
-🏆 - signale la réussite de toutes les Parties.
-```	
-</details>
-
-
-</details>
-
----
 
