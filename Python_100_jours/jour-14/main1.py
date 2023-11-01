@@ -1,18 +1,12 @@
-#👉 Jour 13 Défi
-#Grade Générateur
+#👉 Jour 14 Défi
 
-#Ce projet va prendre un certain temps (et à la rigueur de la pensée) mais ne sera pas brillant une fois que vous avez travail!
-
-#Vous allez demander à l'utilisateur de taper le nom d'un test, le score maximum qu'ils peuvent recevoir, et combien de points ils ont reçu. Par exemple, le test pourrait être appelé "Python" de Compétences et le score maximum est de 50 points, l'utilisateur reçoit 30 points 50 points possibles.
-
-print("Exam Grade Calculator")
+print("PIERRE FEUILLE CISEAUX GAME")
 print()
-exam = input("what is Name of exam ? ")
-name = input("what is your name ? ")
+exam = input("Choisisez votre mouvement, P F ou C ")
+Player1 = input("jour 1 , Quel est votre choix de mouvement ? ")
+Player2 = input("jour 2 , Quel est votre choix de mouvement ? ")
+
 if exam == "python" and name == "Bob":
-  number = float(input("hi! bob, what is your Score ? "))
-  number = round(number, 2)
-  score = number*2 // 1
   if (score >= 90):
     print("you got", score,"% which is a A")
   elif (score >= 80):
