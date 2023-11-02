@@ -1,26 +1,33 @@
-#ðŸ‘‰ Jour 14 DÃ©fi
 
 print("PIERRE FEUILLE CISEAUX GAME")
 print()
-exam = input("Choisisez votre mouvement, P F ou C ")
-Player1 = input("jour 1 , Quel est votre choix de mouvement ? ")
-Player2 = input("jour 2 , Quel est votre choix de mouvement ? ")
+#Permet de faire une saisie inconito
+from getpass import getpass as input
+getpass = input("Choisisez votre mouvement, P F ou C ")
 
-if exam == "python" and name == "Bob":
-  if (score >= 90):
-    print("you got", score,"% which is a A")
-  elif (score >= 80):
-    print("you got", score,"% which is a A-")
-  elif (score >= 70):
-    print("you got", score,"% which is a B")
-  elif (score >= 60):
-    print("you got", score,"% which is a B-")
-  elif (score >= 50):
-    print("you got", score,"% which is a C")
-  elif (score >= 40):
-    print("you got", score,"% which is a C-")
-  else:
-    print("dont worry, you can replay exam")
-else:
-  print("you don't sign up to this program")
+player1 = input("Choisisez votre mouvement, P F ou C ")
+player2 = input("Choisisez votre mouvement, P F ou C ")
 
+#Cas d'égalité
+if player1 == "P" and player2 == "P"
+	print("égalité")
+elif player1 == "F" and player2 == "F"
+	print("égalité")
+elif player1 == "C" and player2 == "C"
+	print("égalité")
+	
+#Cas gagnant player1
+if player1 == "P" and player2 == "C"
+	print("player1 Gagné")
+elif player1 == "F" and player2 == "P"
+	print("player1 Gagné")
+elif player1 == "C" and player2 == "F"
+	print("player1 Gagné")
+	
+#Cas gagnant player2
+if player1 == "P" and player2 == "F"
+	print("player2 Gagné")
+elif player1 == "F" and player2 == "C"
+	print("player2 Gagné")
+elif player1 == "C" and player2 == "P"
+	print("player2 Gagné")
