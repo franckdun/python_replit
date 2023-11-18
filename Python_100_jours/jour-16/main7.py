@@ -49,7 +49,7 @@ mots_a_trouver = ["blanc", "cheminée", "voilent", "clochettes", "demain", "joue
 paragraphes_chanson = paroles_chanson.split('\n\n')
 
 # Règles du jeu
-regles_du_jeu ="""Connaissez-vous la chanson de Petit Garçon ?
+regles_du_jeu ="""🎶 Connaissez-vous la chanson de Petit Garçon ? 
 Trouve les mots manquants de la chanson. 
 3 chances de se tromper.
 Tapez 'quite' pour sortir du jeu.\n"""
@@ -98,7 +98,7 @@ while True:
     # Vérification de la fin de la chanson
     if indice_paragraphe == len(paragraphes_chanson):
         print("🎉 Félicitations, tu as fait toutes les questions !")
-        print(f"Ton score total est de {score} points.")
+        print(f"Score total {score}/14 points.")
         break
 
     # Vérification du nombre de chances restantes
@@ -110,7 +110,7 @@ while True:
 afficher_chanson = input("Tape 'y' et entrer pour afficher la chanson : ")
 if afficher_chanson.lower() == "y":
     # Affiche la chanson complète
-    print("\nParoles de << PETIT GARCON >>")
+    print("\n 🎶 PETIT GARCON 🎶")
     print(paroles_chanson)
 else:
     print("Au revoir\n")
