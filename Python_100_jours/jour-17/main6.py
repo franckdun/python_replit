@@ -1,16 +1,22 @@
-#ðŸ‘‰ Day 17 Challenge
+#Day 17 Challenge
 
-#Go find your Rock, Paper, Scissors game from Day 14 and add the code here before you start. We are going to build upon this game.
+#Allez chercher votre jeu Pierre, Papier, Ciseaux du Jour 14 et ajoutez le code ici avant de commencer. Nous allons nous appuyer sur ce jeu. 
 
-    #Utilisez une boucle pour rÃ©pÃ©ter le jeu plusieurs tours.
-    #Gardez le score du joueur 1 et du joueur 2.
-    #Terminez la partie lorsqu'un joueur remporte trois tours en utilisant breaket exit.
-    #Utiliser continuepour recommencer le tour jusqu'Ã  ce qu'un joueur remporte trois tours.
-    #Votre dernier morceau de code devrait Ãªtre le rÃ©sultat du joueur qui a gagnÃ©.
+    #1 Utilisez une boucle pour répéter le jeu plusieurs tours.
+	
+    #2 Gardez le score du joueur 1 et du joueur 2.
+	
+    #3 Terminez la partie lorsqu'un joueur remporte trois tours en utilisant breaket exit.
+	
+    #4 Utiliser continue pour recommencer le tour jusqu'à ce qu'un joueur remporte trois tours.
+	
+    #5 Votre dernier morceau de code devrait être le résultat du joueur qui a gagné.
 
-    #CrÃ©ez un systÃ¨me de comptage Ã  l'aide d'une variable et +=pour garder une trace du gagnant Ã  chaque tour.
-    #Le whilela boucle doit Ãªtre au dÃ©but du jeu.
-    #Assurez-vous d'inclure printdes dÃ©clarations indiquant le score final de chaque joueur Ã  la fin.
-    #CrÃ©Ã© un ifinstruction pour terminer la boucle.
+    #6Créez un système de comptage à  l'aide d'une variable et +=pour garder une trace du gagnant Ã  chaque tour.
+	
+    # 6 Le while la boucle doit être au début du jeu.
+	
+    #7 Assurez-vous d'inclure print des déclarations indiquant le score final de chaque joueur à la fin.
+	
+    #8Créer un if instruction pour terminer la boucle.
 
-#Vous avez crÃ©Ã© votre premier jeu de notation. Bien jouÃ©! 

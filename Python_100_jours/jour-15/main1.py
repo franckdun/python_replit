@@ -1,4 +1,3 @@
- 
   counter = 0
 while counter <= 12:
   print(counter)
