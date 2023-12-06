@@ -2,7 +2,7 @@
 #Grade Générateur
 
 #Ce projet va prendre un certain temps (et à la rigueur de la pensée) mais ne sera pas brillant une fois que vous avez travail!
-
+#replit100daysofcode
 #Vous allez demander à l'utilisateur de taper le nom d'un test, le score maximum qu'ils peuvent recevoir, et combien de points ils ont reçu. Par exemple, le test pourrait être appelé "Python" de Compétences et le score maximum est de 50 points, l'utilisateur reçoit 30 points 50 points possibles.
 
 print("Exam Grade Calculator")

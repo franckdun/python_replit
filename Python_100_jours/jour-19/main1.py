@@ -1,75 +1,31 @@
-#Nous allons construire un jeu de devinettes « Devinez le nombre ». Ce jeu consiste à choisir un nombre aléatoire entre 1 et 1000 et demander à l’utilisateur de le deviner. Lorsque l’utilisateur trouve le nombre, le jeu s’arrête.
+#Calculateur de prêt indiquant le montant que vous devez pour un prêt de 1 000 $ avec un TAEG de 5 % (TAEG pour taux annuel en pourcentage) sur 10 ans.
 
-#Le programme devra afficher le nombre de tentatives nécessaires pour trouver le nombre.
+#chaque année, le montant a devoir augmente de 5 %.
 
-#Le programme devra demander à l’utilisateur s’il souhaite rejouer.
+#calcule du coup du credits sur 10 ans.
 
-#Le programme devra s’arrêter lorsque l’utilisateur choisit de ne plus jouer.
+#combien voulez-vous empreinter sur 10 ans ?
+empreint = int(input("Combien voulez-vous empreinter sur 10 ans ? "))
+ta = empreint /100
+taeg = ta * 5
+print("Votre TAEG est de : ", taeg / 1000)
 
-#Le programme devra afficher le nombre de tentatives nécessaires pour trouver le nombre.
+coup = empreint/ 10
+print("Votre coup du credits sur 10 ans est de : ", coup)
+#boucle for pour calculer le montant du coup du credits sur 10 ans a payer par an.
 
-# Importation module random
-import random
-#déclaration variable nombre aléatoire.
-nombre = random.randint(1,1000)
-#déclaration variable tentatives.
-tentatives = 0
-#déclaration variable choix.
-choix = ""
-#déclaration variable boléene jouer.
-jouer = True
-
-#Instructions du jeu
-print("Jeu du Nombre Mystère") 
-print("Devinez un nombre entre 1 et 1000.")
-print("Bonne chance !")
-
-#boucle principale while
-while jouer == True:
-    #déclaration variable nombre aléatoire.
-    nombre = random.randint(1,1000)
-    #déclaration variable tentatives utilisateur.
-    tentatives = 0
-    #déclaration variable choix utilisateur.
-    choix = ""
+for counter in range(10):
+    
+    an = counter + 1
+    interet = coup * 0.05
+    coup = coup + coup * 0.05
+    interet = coup * 0.05
+    print("Traite n°", an, ": ", coup, "dons", interet, "€" )
   
-    #boucle principale while, tant que choix est différent du nombre alétoire. 
-    while choix != nombre:
-        #déclaration valeur de choix en int.
-        #bloc try pour gérer les erreurs
-        try:
-          choix = int(input("\nDevinez le nombre : "))  
-        except ValueError:
-          print("Veuillez entrer un nombre valide.")
-          continue
-          
-        # Incrémente nombre tentatives.
-        tentatives += 1
-      
-        # Si choix inférieur au nombre.
-        if choix < nombre:
-            # Affiche nombre tentatives.
-            print(f"Tentative n°{tentatives} C'est plus !")
-          
-        # Si choix supérieur au nombre.
-        elif choix > nombre:
-            print(f"Tentative n°{tentatives} C'est moins !")
-        
-        # Si choix égal au nombre.
-        elif (choix == nombre):
-            print("Bravo, vous avez trouvé en", tentatives, "tentatives ! ")
-            print()
-            # Demande si rejouer.
-            print("Voulez-vous rejouer ? (o/n)")
-            # Déclaration variable pour sortir.
-            choix = input()
-            # Si choix = o relance la boucle.
-            if choix == "o":
-                jouer = True
-                # réinitialise tentatives
-                tentatives = 0
-          
-            # Si choix = autre change valeur de jouer.
-            else:
-                jouer = False
-                print("Merci d'avoir joué !")
+#total intérêt annuel sur 10 ans.
+total = interet * 10
+print("Total intérêt annuel sur 10 ans : ", total)
+
+#calcule du montant du coup du credits sur 10 ans.
+montant = coup * 10 - empreint
+print("Votre montant est de : ", montant)

@@ -40,10 +40,10 @@ def jeu_devine_la_somme(): # Fonction qui gère le jeu
                         return
 
                     elif choix < somme_mystere:
-                         print(f"Crédit {credit}$              C'est plus  ?")
+                         print(f"Crédit {credit}$              C'est plus !")
                          print(f"\nTentative n°{tentatives}")
                     else:
-                        print(f"Crédit {credit}$              C'est moins ?  ")
+                        print(f"Crédit {credit}$              C'est moins !")
                         print(f"\nTentative n°{tentatives}")
 
                 except ValueError: # bloc except gère les erreurs
