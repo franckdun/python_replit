@@ -4,27 +4,28 @@
 emprunte = int(input("Combien souhaitez-vous emprunter sur 10 ans ? "))
 
 # Calcul du TAEG
-taux_annuel = 0.05
-taeg = emprunte * taux_annuel
-print("Votre TAEG est de : ", taeg / 1000)
+taux = 0.05 # 5% de l'empreint
+
 
 # Calcul du coût du crédit sur 10 ans
-traites_annuelles = 10
-montant_traites = emprunte / traites_annuelles
-print("Traites de base sur 10 ans : ", montant_traites)
+ans = 10 # nombre d'années
+payement = emprunte / ans # calcul du montant pour une années
+
+# Calcul du montant à rembourser la 1re année, TAEG à 0 %
+print(f"Traite n° 1 : {payement:.2f}")
 
 # Boucle for pour calculer le montant de chaque traite sur 10 ans
 total_interet = 0
 totaltraites = 0
-for annee in range(1, traites_annuelles + 1):
-    interet_annuel = montant_traites * taux_annuel
-    montant_traites += interet_annuel
-    total_interet += interet_annuel
-    print(f"Traite n° {annee} : {montant_traites:.2f} $ dont {interet_annuel:.2f} $ de TAEG ajouté")
+for annee in range(2, ans + 1): #pour chaque annee dans la liste.la liste traite de 1 ans à 10 ans mais en commençant à 2 (car sans la traite de base)
+    interet = payement * taux # interet calculé a chaque tour avec la nouvelle valeur de payement foix le taux
+    payement += interet # 100 + 5 = 105 on ajoute a chaque tour de boucle
+    total_interet += interet # a chaque tour on ajoute le montant de l'interet à la somme total des interets
+    print(f"Payement n° {annee} : {payement:.2f} $ dont TAEG {interet:.2f} $")
 
-    totaltraites += montant_traites
-# Calcul du montant total à rembourser sur 10 ans
-montant_total = totaltraites - emprunte
-print(f"Cout total du crédit sur 10 ans est de : {montant_total:.2f}")
+    totaltraites += payement #total des payements
+# Calcul du montant des intérets sur 10 ans
+totalinteret = totaltraites - emprunte
+print(f"Cout total crédit : emprunt {emprunte} interets {totalinteret:.2f} total {totaltraites:.2f} $")
 
 

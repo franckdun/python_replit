@@ -6,7 +6,7 @@ emprunte = int(input("Combien souhaitez-vous emprunter sur 10 ans ? "))
 # Calcul du TAEG
 taux_annuel = 0.05
 taeg = emprunte * taux_annuel
-print("Votre TAEG est de : ", taeg / 1000)
+print("Votre TAEG est de : ", taeg / 10)
 
 # Calcul du coût du crédit sur 10 ans
 traites_annuelles = 10
