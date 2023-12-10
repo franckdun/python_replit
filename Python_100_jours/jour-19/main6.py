@@ -41,7 +41,7 @@ for mois in range(1, 500):
     capital -= mensualite
 
     # Vérification si le capital est remboursé
-    if capital <= 0:
+    if capital <= 100:
         print(f"\nMois {mois}:")
         print(f"Payement {capital + interet:.2f}€ moins intérêts {interet:.2f}€")
         print("Crédit remboursé !")
