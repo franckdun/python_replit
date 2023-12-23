@@ -3,20 +3,27 @@ def calculer_interet_mensuel(capital, taux):
     return (capital / 100) * taux
 
 # Présentation des règles du calculateur de crédit
-print("Bienvenue dans le calculateur de crédit.")
-print("Règles : Le capital initial doit être supérieur à 500€.")
-print("Le taux d'intérêt mensuel est fixé à 5%.")
-print("Le paiement mensuel est de 100€.")
+print("Bienvenue chez Petit Crédit.")
+
+print(" Empreint supérieur à 100€.")
+print(" Mensualités supérieur à 50€.")
+print(" Intérêt mensuel fixé à 5%.")
 
 # Gestion de la saisie utilisateur avec une boucle
 while True:
     # Entrée utilisateur pour le capital initial
-    capital_initial = input("Entrez le montant souhaité supérieur à 500€) : ")
+    capital_initial = input("\nEntrez le montant souhaité ? ")
+    # Vérification de la saisie utilisateur
+    mensualite = input("Entrez la mensualité souhaité ? ")
 
     # Vérification de la validité de l'entrée
     try:
+        mensualite = float(mensualite)
+        if mensualite < 50:
+            print("La mensualité doit être supérieur à 50€.") 
+            continue
         capital = float(capital_initial)
-        if capital > 500:
+        if capital > 99:
             break  # Sortir de la boucle si l'entrée est valide
         else:
             print("Le capital doit être supérieur à 500€. Réessayez.")
@@ -24,10 +31,10 @@ while True:
         print("Veuillez entrer un nombre valide.")
 
 # Initialisation des variables
-mensualite = 100  # Paiement mensuel
+
 taux = 5  # Taux d'intérêt mensuel fixé à 5%
-total_interets = 0
-mois = 0
+total_interets = 0 # conteur intérêts
+mois = 0 # conteur nombre 
 
 # Affichage du solde initial
 print(f"\nSolde initial : {capital:.2f}€")
