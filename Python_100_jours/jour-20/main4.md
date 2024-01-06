@@ -4,9 +4,13 @@ Tout d'abord, supprimez tout autre code de votre main.pydéposer. Copiez chaque 
 
 for i in range (10, 0):
   print(i)
+  
+solution:
+
+for i in range (10, 0, -1):
+  print(i)
 
 La troisième valeur du rangela fonction, incrément, est manquante. Il faut ajouter un incrément de -1faire marche arrière. Sans l'incrément écrit, l'ordinateur applique la valeur par défaut de +1.
 
 Sans l'incrément indiqué, nous disons à l'ordinateur : "commencez à 10, continuez jusqu'à 0 et ajoutez-en un à chaque fois". Cela ne peut pas être fait, donc rien ne fonctionnera à moins que nous ajoutions un incrément.
 
-for i in range (10, 0, -1):

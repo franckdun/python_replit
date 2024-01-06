@@ -4,6 +4,7 @@ Générateur de liste
 Demandez à l'utilisateur de répertorier un numéro de début, un numéro de fin et un incrément à utiliser. Afficher une réponse basée sur les réponses des utilisateurs (utilisez le inputcommande.) 
 
 Example:
+
 Start at: 200
 End before: 300
 Increment between values: 20
