@@ -1,4 +1,4 @@
-#solution
+#solution replit
 
 print("Welcome to my number list generator.")
 print()
