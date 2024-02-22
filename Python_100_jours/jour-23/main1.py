@@ -1,5 +1,8 @@
-import random
-
+def rollDice():
+  import random
+  dice = random.randint(1, 6)
+  print("You rolled", dice)
+  
 for i in range(10):
-  myNumber = random.randint(1, 100)
-  print(myNumber)
+  rollDice()
+
