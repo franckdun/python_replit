@@ -1,16 +1,14 @@
 def ReplitLoginSystem():
     # Définition des informations de connexion valides
-    # Bibliothèque des paramètres de connexion
     valid_credentials = {
         "david": {
-            "password": "bald",  # Mot de passe de David
-            "age": 18,  # Âge de David
-            "email": "david@example.com",  # Email de David
-            "adresse": "123 rue de la République"  # Adresse de David
+            "password": "bald",
+            "age": 30,
+            "email": "david@example.com",
+            "adresse": "123 rue de la République"
         },
         # Ajouter plus d'utilisateurs au besoin
     }
-
     while True:
         username = input("Quel est ton nom d'utilisateur ? (Tape 'q' pour quitter) : ").lower()
         if username == 'q':
@@ -43,18 +41,7 @@ def ReplitLoginSystem():
                 print("\nOpération annulée.")
                 break
         else:
-            print("Nom d'utilisateur inconnu. Souhaitez-vous créer un compte ? (oui/non)")
-            choix = input().lower()
-            if choix == "oui":
-                email = input("Entrez votre adresse e-mail : ")
-                # Ajout de l'utilisateur avec un mot de passe par défaut et l'email fourni
-                # mot de passe
-                password = input("Choisissez un mot de passe : ")
-              
-                valid_credentials[username] = {"password": password, "email": email}
-                print("Compte créé avec succès ! Veuillez vous connecter avec votre nouveau compte.")
-            else:
-                print("Réessayez avec un nom d'utilisateur valide ou tapez 'q' pour quitter.")
+            print("Oops ! Nom d'utilisateur inconnu. Réessaie !")
 
 
 ReplitLoginSystem()
