@@ -119,3 +119,5 @@ def systeme_connexion():
         except AgeIncorrect as e:
             print(e)
             print("Réessaie avec un âge valide ou tape 'q' pour quitter.")
+			
+systeme_connexion()
